@@ -1,0 +1,19 @@
+{
+  "name": "redux-action-host",
+  "version": "1.0.0",
+  "description": "Redux middleware to add the hostname of the originating computer to action metadata",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabrehagen/redux-action-host.git"
+  },
+  "author": "Jackson Delahunt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabrehagen/redux-action-host/issues"
+  },
+  "homepage": "https://github.com/sabrehagen/redux-action-host#readme"
+}
