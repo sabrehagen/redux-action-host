@@ -1,6 +1,6 @@
 {
   "name": "redux-action-host",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redux middleware to add the hostname of the originating computer to action metadata",
   "main": "index.js",
   "scripts": {
