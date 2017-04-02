@@ -10,7 +10,7 @@ const actionHostname = (forcedHostname) => {
 
     // middleware to assign hostname to meta
     return store => next => action => {
-        const meta = Object.assign({}, action.meta, { hostname });
+        const meta = Object.assign({ hostname }, action.meta);
         const actionWithMeta = Object.assign({}, action, { meta });
         return next(actionWithMeta);
     }
